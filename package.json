@@ -1,0 +1,22 @@
+{
+  "name": "baseModule",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:volumenetwork/baseModule.git",
+  "author": "James Irving-Swift <james@irving-swift.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
