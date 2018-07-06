@@ -16,7 +16,11 @@ Build can be found in `dist/`.
 
 Set to airbnb
 
-### babel
+### Babel
 
 With babel-preset-env
+
+### Jest
+
+Run `yarn test` to run tests.
 
